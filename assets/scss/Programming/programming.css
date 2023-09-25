@@ -3,7 +3,7 @@ main #whole .container {
 }
 
 main #whole .container .left {
-  background-color: #4F709C;
+  background-color: #4f709c;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 30px;
@@ -11,7 +11,7 @@ main #whole .container .left {
 }
 
 main #whole .container .left .summary {
-  color: #F1EFEF;
+  color: #f1efef;
   width: 100%;
 }
 
@@ -94,45 +94,30 @@ main #whole .container .left .socialMedia i {
       -ms-flex-align: center;
           align-items: center;
   padding: 15px;
-  background-color: #F1EFEF;
+  background-color: #f1efef;
   border-radius: 50%;
 }
 
 main #whole .container .right {
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #4F709C;
+  background-color: #4f709c;
   border-radius: 15px;
-  color: #F1EFEF;
+  color: #f1efef;
+  padding: 25px;
 }
 
 main #whole .container .right h1 {
   font-size: 50px;
-  margin-bottom: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: #213555;
-}
-
-main #whole .container .right h1 p {
+  padding-left: 25px;
+  padding-top: 25px;
   color: white;
+  padding-bottom: 25px;
 }
 
-main #whole .container .right span {
-  font-size: 20px;
+main #whole .container .right ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=programming.css.map */

@@ -1,0 +1,110 @@
+main {
+    #whole {
+    .container {
+        padding-top: 120px;
+        .left {
+        background-color: #4f709c;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        border-radius: 10px;
+        .summary {
+            color: #f1efef;
+            width: 100%;
+            img {
+                height: 100px;
+                border-radius: 50%;
+            }
+            h3 {
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+        }
+        .options {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            cursor: pointer;
+            .eachOption {
+                transition: 0.5s;
+                display: flex;
+                justify-content: left;
+                margin-bottom: 20px;
+                text-decoration: none;
+                color: aliceblue;
+                font-size: 18px;
+                i {
+                    padding-right: 10px;
+                    margin-top: 3px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 20px;
+                    height: 15px;
+                }
+            }
+            .eachOption:hover {
+                color: #213555;
+            }
+        }
+        .socialMedia {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            i {
+                margin-right: 20px;
+                width: 30px;
+                height: 18px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 15px;
+                background-color: #f1efef;
+                border-radius: 50%;
+            }
+        }
+        }
+
+        .right {
+            width: 100%;
+            height: 100%;
+            background-color: #4f709c;
+            border-radius: 15px;
+            color: #f1efef;
+            padding: 25px;
+            h1{
+                font-size: 50px;
+                padding-left: 25px;
+                padding-top: 25px;
+                color: white;
+                padding-bottom: 25px;
+            }
+                table,
+                th,
+                td {
+                    border: 1px solid black;
+                }
+                thead{
+                    .trs{
+                        th{
+                            color: #213555;
+                            padding-left: 35px;
+                            padding-top: 25px;
+                            padding-bottom: 25px;
+                        }
+                    }
+                }
+                tbody{
+                    tr{
+                        td{
+                            padding-top: 25px;
+                            padding-bottom: 25px;
+                            padding-left: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
